@@ -25,7 +25,7 @@ public class Angajat extends Aplicant{
 	}
 	public Angajat() {
 		super();
-
+		
 	}
 	
 	
