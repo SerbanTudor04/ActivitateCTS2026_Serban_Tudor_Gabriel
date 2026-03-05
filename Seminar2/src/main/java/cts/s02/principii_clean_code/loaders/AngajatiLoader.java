@@ -1,7 +1,8 @@
 package cts.s02.principii_clean_code.loaders;
 
-import ro.ase.cts.clase.Angajat;
-import ro.ase.cts.clase.Aplicant;
+
+import cts.s02.principii_clean_code.clase.Angajat;
+import cts.s02.principii_clean_code.clase.Aplicant;
 
 import java.io.File;
 import java.io.FileNotFoundException;
