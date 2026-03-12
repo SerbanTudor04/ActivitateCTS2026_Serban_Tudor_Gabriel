@@ -1,13 +1,13 @@
 package cts.s02.principii_clean_code.loaders;
 
-import ro.ase.cts.clase.Aplicant;
+//import ro.ase.cts.clase.Aplicant;
 
 import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Scanner;
 
 public abstract class AplicantiLoader {
-    public abstract List<Aplicant> loadAplicanti(String file) throws FileNotFoundException;
+   /* public abstract List<Aplicant> loadAplicanti(String file) throws FileNotFoundException;
 
     public void loadAplicantData(Scanner input, Aplicant aplicant){
         String nume = input.next();
@@ -25,6 +25,6 @@ public abstract class AplicantiLoader {
         aplicant.setPunctaj(punctaj);
         aplicant.setNr_proiecte(nr, vect);
 
-    }
+    }*/
 
 }
