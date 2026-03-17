@@ -44,7 +44,7 @@ public class InternareBuilder {
 
 
     public Internare build(){
-        return internare;
+        return internare.clone();
     }
 
 }
