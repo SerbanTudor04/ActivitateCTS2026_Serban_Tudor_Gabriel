@@ -25,7 +25,7 @@ public class ContRegistry {
             return this;
         }
 
-        conturi.put(cont.getNume(),cont);
+        conturi.put(cont.getNrCont(),cont);
         return this;
     }
 
@@ -42,6 +42,10 @@ public class ContRegistry {
     public ContRegistry remove(Cont cont){
         conturi.remove(cont.getNrCont());
         return this;
+    }
+
+    public void display(){
+        conturi.forEach((k,v)->System.out.println(v));
     }
 
 }

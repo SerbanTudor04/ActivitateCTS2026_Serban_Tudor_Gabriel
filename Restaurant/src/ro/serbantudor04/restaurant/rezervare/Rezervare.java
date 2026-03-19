@@ -23,10 +23,31 @@ public class Rezervare implements PrototypeRezervare{
         this.nrTelefon = nrTelefon;
     }
 
+    public void setNrPersoane(int nrPersoane) {
+        this.nrPersoane = nrPersoane;
+    }
 
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public void setOra(String ora) {
+        this.ora = ora;
+    }
 
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return "Rezervare{" +
+                "numeClient='" + numeClient + '\'' +
+                ", nrPersoane=" + nrPersoane +
+                ", data='" + data + '\'' +
+                ", ora='" + ora + '\'' +
+                ", nrTelefon='" + nrTelefon + '\'' +
+                '}';
     }
 }
