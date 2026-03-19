@@ -4,6 +4,8 @@ import ro.serbantudor04.restaurant.factory.FelDeMancareFactory;
 import ro.serbantudor04.restaurant.factory.model.Papanasi;
 import ro.serbantudor04.restaurant.factory.model.SupaDeCiuperci;
 import ro.serbantudor04.restaurant.factory.model.TipAliment;
+import ro.serbantudor04.restaurant.rezervare.Cont;
+import ro.serbantudor04.restaurant.rezervare.ContRegistry;
 
 public class Restaurant {
 
@@ -16,13 +18,22 @@ public class Restaurant {
         papanasi.afisare();
     }
 
+    public static void rezervari(){
+        System.out.println("==========================");
+        ContRegistry registey = ContRegistry.getInstance();
+        for(int i=0;i<=10;i++){
+            registey.add(new Cont("Nume"+i,"Prenume"+i,"CNT"+i));
+        }
 
+
+    }
 
 
     public static void main(String[] args) {
         gateste();
         System.out.println("==========================");
 
+        rezervari();
 
 
     }
