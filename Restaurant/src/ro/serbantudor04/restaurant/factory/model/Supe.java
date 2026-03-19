@@ -1,4 +1,4 @@
-package ro.serbantudor04.restaurant.model;
+package ro.serbantudor04.restaurant.factory.model;
 
 public abstract class Supe  implements FelDeMancare{
     protected Number pret;

@@ -1,6 +1,6 @@
 package ro.serbantudor04.restaurant.factory;
 
-import ro.serbantudor04.restaurant.model.*;
+import ro.serbantudor04.restaurant.factory.model.*;
 
 public class FelDeMancareFactory {
     private FelDeMancareFactory(){}

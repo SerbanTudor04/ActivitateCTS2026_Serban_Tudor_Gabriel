@@ -1,4 +1,4 @@
-package ro.serbantudor04.restaurant.model;
+package ro.serbantudor04.restaurant.factory.model;
 
 public class Papanasi extends Desert{
     public Papanasi(Number calorii, String pret) {

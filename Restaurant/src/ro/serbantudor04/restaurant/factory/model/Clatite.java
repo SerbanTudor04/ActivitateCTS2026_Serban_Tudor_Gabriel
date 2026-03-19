@@ -1,4 +1,4 @@
-package ro.serbantudor04.restaurant.model;
+package ro.serbantudor04.restaurant.factory.model;
 
 public class Clatite extends Desert{
     public Clatite(Number calorii, String pret) {

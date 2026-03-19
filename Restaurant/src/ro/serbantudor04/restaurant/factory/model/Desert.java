@@ -1,4 +1,4 @@
-package ro.serbantudor04.restaurant.model;
+package ro.serbantudor04.restaurant.factory.model;
 
 public abstract class Desert implements FelDeMancare {
     protected Number calorii;
